@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="1dp">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back to Dashboard"
+        android:backgroundTint="#607D8B"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHotlineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Red Cross"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E53935"
+        android:text="143"
+        android:onClick="callHotline"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="The Philippine Red Cross is the foremost humanitarian organization providing life-saving aid and disaster response to the most vulnerable Filipinos."
+        android:layout_marginTop="4dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textViewHotlineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Bureau of Fire Protection"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E53935"
+        android:text="8426-0219"
+        android:onClick="callHotline"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="he Bureau of Fire Protection (BFP) is the Philippine government agency responsible for firefighting, fire prevention, and emergency rescue services."
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="NDRRMC"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E53935"
+        android:text="8911-5061"
+        android:onClick="callHotline"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="The National Disaster Risk Reduction and Management Council (NDRRMC) is the top government coordinator for disaster management, ensuring the protection and welfare of the Filipino people during emergencies."
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="National Emergency Hotline"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E53935"
+        android:text="911"
+        android:onClick="callHotline"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewHotlineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="The 911 is the Philippine national emergency hotline for police, fire, medical, and disaster response nationwide."
+        android:layout_marginTop="4dp"/>
+
+
+</LinearLayout>
